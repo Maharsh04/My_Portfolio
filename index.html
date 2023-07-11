@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f141c7fb9d.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/site.webmanifest">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="/img/logo.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark icons" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars icons" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Maharsh</span><br> from IIT Guwahati</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------About------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/img/user.jpg" class="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a dedicated B.Tech student pursuing Electrical and Electronics Engineering at IIT Guwahati.
+                        With a strong passion for web development, I constantly explore and learn various tech stacks to
+                        enhance my skills. Additionally, I find great interest in competitive programming and dedicate
+                        my free time to honing my problem-solving abilities. I strive to excel in both academia and the
+                        practical application of my knowledge.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" id="Skillslink" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" id="Experiencelink" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" id="Educationlink" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Designing Webites</li>
+                            <li><span>Competitive Programming</span><br> Problem-solving</li>
+                            <li><span>Content Creation</span><br> Wrting Technical content</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Jul. 2022-present</span><br> Academic Representative, Cepstrum</li>
+                            <li><span>Jun. 2022-Sep. 2022</span><br> Event Organizer, Techniche</li>
+                            <li><span>Jun. 2022-Sep. 2022</span><br> City Representative, Technothlon</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022-present</span><br> EEE , IIT Guwahati</li>
+                            <li><span>2019-2021</span><br> GNFC Secondary School, Bharuch</li>
+                            <li><span>2005-2019</span><br> QACS, Bharuch</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------Services------------------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I have a keen interest in web development and have developed user-friendly and visually appealing
+                        interfaces in my projects. I continuously strive to enhance my design skills and have been
+                        working diligently to achieve that. I am proficient in HTML, CSS, and I am also currently
+                        learning Figma to further improve my design abilities. My dedication to learning and improving
+                        allows me to create engaging and intuitive UIs for websites.</p>
+                    <!-- <a href="#">Learn more...</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Competitive Programming</h2>
+                    <p>I have been consistently dedicated to enhancing my understanding and proficiency in Data
+                        Structures and Algorithms (DSA) as well as Object-Oriented Programming (OOPs) concepts.I utilize
+                        the C++ language to tackle various problem-solving challenges. I actively participate in coding
+                        contests on platforms like Codeforces and regularly solve problems on platforms such as
+                        InterviewBit and Codeforces. This allows me to continuously sharpen my problem-solving skills
+                        and stay updated with the latest coding techniques.</p>
+                    <!-- <a href="#">Learn more...</a> -->
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Backend Developer</h2>
+                    <p>I am actively enhancing my backend development skills by focusing on learning Node.js and
+                        improving my JavaScript proficiency. While I have already utilized several libraries in my
+                        projects, I am aware that there is much more to explore and learn. Therefore, I remain
+                        determined to expand my knowledge and stay updated with the latest advancements in backend
+                        technologies. Although I have acquired a basic understanding of database management, I am eager
+                        to delve deeper into this area and further strengthen my skills in the near future.</p>
+                    <!-- <a href="#">Learn more...</a> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- -------------------------------------Portfolio------------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/img-1.jpg">
+                    <div class="layer">
+                        <h2>ConvoConnect WebApp</h2>
+                        <p>This is Node.js-based video call application that utilizes socket.io and peerjs libraries to
+                            establish peer-to-peer connections. It provides video-calling and real time chat
+                            functionality. Additionally, it offers features such as screen sharing and whiteboard
+                            sharing.</p>
+                        <a href="https://github.com/Maharsh04/GMeet-Clone"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/img-2.jpg">
+                    <div class="layer">
+                        <h2>Cab-Hub</h2>
+                        <p>This is a Node.js-based cab-fare compare website that utilizes puppeteer library to scrape
+                            cab fares from popular cab booking website like Ola and Uber. It also provides real time map
+                            with route searching functionality from one location to another. It also provides an easy
+                            cab booking feature using which users can be directly redirected to the payment page by a
+                            single click.</p>
+                        <a href="https://github.com/Swapn2003/Cab-Hub"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/img-3.jpg">
+                    <div class="layer">
+                        <h2>PDF Extract WebApp</h2>
+                        <p>This is Node.js based web application that uses Adobe PDF Extract API to extract details of
+                            company, customer and product by processing multiple pdf invoices and storing entire data in
+                            a single csv file</p>
+                        <a href="https://github.com/Maharsh04/Adobe_Round-1"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -------------------------------------Contact------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mbraval04@gmail.com</p>
+                    <p><i class="fa-solid fa-envelope"></i>r.maharsh@iitg.ac.in</p>
+                    <p><i class="fa-solid fa-phone"></i>8128986819</p>
+                    <div class="social-icons">
+                        <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+                        <a href="https://www.linkedin.com/in/maharsh-raval-7a385322a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Maharsh04"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="#" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email ID" required>
+                        <textarea name="message" rows="8" placeholder="Your message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="conclusion">
+            <p>Made with <i class="fa-solid fa-heart"></i> By Maharsh</p>
+        </div>
+    </div>
+
+
+
+    <script src="./js/file.js"></script>
+</body>
+
+</html>
