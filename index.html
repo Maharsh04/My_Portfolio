@@ -18,15 +18,15 @@
 </head>
 
 <body>
-    <div id="header" style="background-color: url(./img/back.webp);">
+    <div id="header">
         <div class="container">
             <nav>
                 <!-- <img src="/img/logo.png" class="logo"> -->
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-regular fa-circle-xmark icons" onclick="closemenu()"></i>
                 </ul>
@@ -34,13 +34,13 @@
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
-                <h1>Hi I'm <span>Maharsh</span><br> from IIT Guwahati</h1>
+                <h1></h1>
             </div>
         </div>
     </div>
 
     <!-- -------------------------------------About------------------------------------ -->
-    <div id="about">
+    <div id="about" style="background: linear-gradient(45deg,#0E1213,#17181A) ;">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
@@ -87,13 +87,13 @@
     </div>
 
     <!-- -------------------------------------Services------------------------------------ -->
-    <div id="services">
+    <div id="services" style="background: linear-gradient(45deg,#0E1213,#17181A) ;">
         <div class="container">
             <h1 class="subtitle">Skills</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web<br>Design</h2>
                     <p>I have a keen interest in web development and have developed user-friendly and visually appealing
                         interfaces in my projects. I continuously strive to enhance my design skills and have been
                         working diligently to achieve that. I am proficient in HTML, CSS, and I am also currently
@@ -103,7 +103,7 @@
                 </div>
 
                 <div>
-                    <i class="fa-solid fa-crop"></i>
+                    <i class="fa-solid fa-code"></i>
                     <h2>Competitive Programming</h2>
                     <p>I have been consistently dedicated to enhancing my understanding and proficiency in Data
                         Structures and Algorithms (DSA) as well as Object-Oriented Programming (OOPs) concepts.I utilize
@@ -115,7 +115,7 @@
                 </div>
 
                 <div>
-                    <i class="fa-brands fa-app-store"></i>
+                    <i class="fa-solid fa-database"></i>
                     <h2>Backend Developer</h2>
                     <p>I am actively enhancing my backend development skills by focusing on learning Node.js and
                         improving my JavaScript proficiency. While I have already utilized several libraries in my
@@ -131,12 +131,12 @@
     </div>
     </div>
     <!-- -------------------------------------Portfolio------------------------------------ -->
-    <div id="portfolio">
+    <div id="portfolio" style="background: linear-gradient(45deg,#0E1213,#17181A) ;">
         <div class="container">
             <h1 class="subtitle">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="./img/img-1.jpg">
+                    <img src="./img/ConvoConnect.jpg">
                     <div class="layer">
                         <h2>ConvoConnect WebApp</h2>
                         <p>This is Node.js-based video call application that utilizes socket.io and peerjs libraries to
@@ -148,7 +148,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./img/img-2.jpg">
+                    <img src="./img/Cab-Hub.jpg">
                     <div class="layer">
                         <h2>Cab-Hub</h2>
                         <p>This is a Node.js-based cab-fare compare website that utilizes puppeteer library to scrape
@@ -161,7 +161,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./img/img-3.jpg">
+                    <img src="./img/pdfextract.jpg">
                     <div class="layer">
                         <h2>PDF Extract WebApp</h2>
                         <p>This is Node.js based web application that uses Adobe PDF Extract API to extract details of
@@ -176,14 +176,14 @@
         </div>
     </div>
     <!-- -------------------------------------Contact------------------------------------ -->
-    <div id="contact">
+    <div id="contact" style="background: linear-gradient(45deg,#0E1213,#17181A) ;">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="subtitle">Contact Me</h1>
                     <p><i class="fa-solid fa-envelope"></i>mbraval04@gmail.com</p>
                     <p><i class="fa-solid fa-envelope"></i>r.maharsh@iitg.ac.in</p>
-                    <p><i class="fa-solid fa-phone"></i>8128986819</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-8128986819</p>
                     <div class="social-icons">
                         <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
                         <a href="https://www.linkedin.com/in/maharsh-raval-7a385322a/"><i
@@ -191,13 +191,13 @@
                         <a href="https://github.com/Maharsh04"><i class="fa-brands fa-github"></i></a>
 
                     </div>
-                    <a href="https://drive.google.com/file/d/1HUyqSN_mXHXtJU8rp2gwvrFBsIHkYAfv/view?usp=sharing" class="btn btn2" download>Download CV</a>
+                    <a href="https://drive.google.com/file/d/1sMJ5fwytEmY-u4WElldqaiKd1D3nO9mc/view?usp=sharing" class="btn btn2" download>Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form>
                         <input type="text" name="name" placeholder="Your name" required>
                         <input type="email" name="email" placeholder="Your email ID" required>
-                        <textarea name="message" rows="8" placeholder="Your message" required></textarea>
+                        <textarea name="message" rows="8" placeholder="Your message" style="resize: none;"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
