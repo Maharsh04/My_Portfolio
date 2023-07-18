@@ -87,7 +87,7 @@ document.querySelector('.submit').addEventListener('click', () => {
         message: message
     }
 
-    fetch('http://localhost:5000/submit-form', {
+    fetch('https://myportfolio-hdkh.onrender.com/submit-form', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
