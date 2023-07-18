@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -194,12 +194,12 @@
                     <a href="https://drive.google.com/file/d/1sMJ5fwytEmY-u4WElldqaiKd1D3nO9mc/view?usp=sharing" class="btn btn2" download>Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
-                        <input type="text" name="name" placeholder="Your name" required>
-                        <input type="email" name="email" placeholder="Your email ID" required>
-                        <textarea name="message" rows="8" placeholder="Your message" style="resize: none;"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
+                    <div class="form">
+                        <input type="text" name="name" class="name" placeholder="Your name" required>
+                        <input type="email" name="email" class="email" placeholder="Your email ID" required>
+                        <textarea name="message" class="message" rows="8" placeholder="Your message..." style="resize: none;"></textarea>
+                        <button class="btn btn2 submit">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -210,7 +210,7 @@
 
 
 
-    <script src="./js/file.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
